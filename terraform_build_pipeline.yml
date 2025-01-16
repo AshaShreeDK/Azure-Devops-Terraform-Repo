@@ -58,7 +58,7 @@ steps:
     displayName: "Terraform apply"
     inputs:
       command: 'apply'
-      environmentServiceName: 'Free ()'
+      environmentServiceName: 'Free Trial(565f498d-74ed-47d1-9d38-9bef3f7973b4)'
       runAzLogin: true
       commandOptions: '-var-file ${{ parameters.ENV }}.tfvars'
       allowTelemetryCollection: false
